@@ -22,5 +22,5 @@ export default async function TripDetaile({
   if (!trip) {
     return <div>Trip not found!</div>;
   }
-  return <TripDetailClient trip={trip} />;
+  return <TripDetailClient />;
 }
