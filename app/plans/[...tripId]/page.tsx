@@ -1,6 +1,6 @@
 import { auth } from "@/auth";
 import TripDetailClient from "@/components/templates/trip-detail";
-import { prisma } from "@/lib/prisma";
+import { prisma } from "@/lib/db";
 
 export default async function TripDetaile({
   params,

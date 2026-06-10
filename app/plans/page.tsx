@@ -1,6 +1,6 @@
 import { auth } from "@/auth";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { prisma } from "@/lib/prisma";
+import { prisma } from "@/lib/db";
 import Link from "next/link";
 import React from "react";
 
